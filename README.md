@@ -7,4 +7,4 @@ La web usa localstorage para guardar la información para cada persona que ingre
 
 Funcionamiento:
 
-Simplementa ingresa el propósito que deseas agregar luego simplemente presiona el botón guardar y podrás ver los propósitos que agreges en forma de lista en la parte inferior.
+Simplemente ingresa el propósito que deseas agregar luego simplemente presiona el botón guardar y podrás ver los propósitos que agreges en forma de lista en la parte inferior.
