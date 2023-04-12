@@ -13,6 +13,6 @@ La web usa localstorage para guardar la información para cada persona que ingre
 
 ![image](https://user-images.githubusercontent.com/47501645/231524977-ad4a1ef0-659d-46b7-9202-5e5a99970d10.png)
 
-Funcionamiento:
+## Funcionamiento:
 
 Simplemente ingresa el propósito que deseas agregar luego simplemente presiona el botón guardar y podrás ver los propósitos que agreges en forma de lista en la parte inferior.
