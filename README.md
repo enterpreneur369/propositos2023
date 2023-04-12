@@ -16,5 +16,3 @@ La web usa localstorage para guardar la información para cada persona que ingre
 Funcionamiento:
 
 Simplemente ingresa el propósito que deseas agregar luego simplemente presiona el botón guardar y podrás ver los propósitos que agreges en forma de lista en la parte inferior.
-
-![image](https://img.shields.io/appveyor/build/enterpreneur369/propositos2023)
