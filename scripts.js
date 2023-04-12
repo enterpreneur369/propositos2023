@@ -11,7 +11,7 @@ btn.addEventListener("click", function() {
 
 window.onload = function() {
     // Tomar los valores del storage
-    let list = document.createElement("ul"); // Crea una lista en el DOM
+    let list = document.getElementById("purposes"); // Crea una lista en el DOM
     for(let i = 0; i < localStorage.length; i++) {
         let key = localStorage.key(i);
         if (key.startsWith("purpose_")) { // Filtra las claves por la convención de nombres utilizada
@@ -30,5 +30,6 @@ window.onload = function() {
             list.appendChild(listItem); // Agrega el elemento de lista a la lista en el DOM
         }
     }
-    document.body.appendChild(list); // Agrega la lista al cuerpo del documento
+    let main = document.querySelector("main");
+    main.appendChild(list); // Agrega la lista al cuerpo del documento
 };

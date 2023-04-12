@@ -1,0 +1,50 @@
+:root {
+    --primary-color: #2A2861;
+    --secondary-color: #A5A3E6;
+    --third-color: #5F5BE0;
+    --fourth-color: #464561;
+    --fiveth-color: #ffffff;
+}
+
+body {
+    font-size: 1.1em;
+    background-color: var(--primary-color);
+    color: var(--fiveth-color);
+}
+
+input[type='text'] {
+    width: 250px;
+    background-color: var(--secondary-color);
+    color: var(--fourth-color);
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type='checkbox'] {    
+    padding: 0;
+    width: 15px;
+    height: 15px;
+}
+
+button {
+    cursor: pointer;
+    border: 0;
+    width: 256px;
+    background-color: var(--third-color);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+main {
+    width: 30%;
+}
+body main {
+    margin: 0 auto;
+}
